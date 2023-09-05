@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-13 17:04+0000\n"
-"PO-Revision-Date: 2023-08-02 14:10+0000\n"
+"PO-Revision-Date: 2023-09-05 21:36+0000\n"
 "Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -491,7 +491,6 @@ msgstr "Si está marcada, nuevos mensajes requieren su atención."
 
 #. module: privacy_consent
 #: model:ir.model.fields,help:privacy_consent.field_privacy_consent__message_has_error
-#: model:ir.model.fields,help:privacy_consent.field_privacy_consent__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Si está marcada, algunos mensajes tienen un error de entrega."
 
@@ -596,7 +595,7 @@ msgstr "Número de errores"
 #. module: privacy_consent
 #: model:ir.model.fields,help:privacy_consent.field_privacy_consent__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Número de mensajes que requieren una acción"
 
 #. module: privacy_consent
 #: model:ir.model.fields,help:privacy_consent.field_privacy_consent__message_has_error_counter
@@ -670,11 +669,6 @@ msgid ""
 msgstr ""
 "Ejecutar esta acción cuando se cree una nueva solicitud de consentimiento, o "
 "cuando su estado de aceptación cambie."
-
-#. module: privacy_consent
-#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr "Error en la entrega de SMS"
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_privacy_activity__server_action_id
@@ -769,6 +763,9 @@ msgstr "Ha <b class=\"text-danger\">rechazado</b> dicho tratamiento."
 #: model_terms:ir.ui.view,arch_db:privacy_consent.form
 msgid "You have <b class=\"text-success\">accepted</b> such processing."
 msgstr "Ha <b class=\"text-success\">aceptado</b> dicho tratamiento."
+
+#~ msgid "SMS Delivery error"
+#~ msgstr "Error en la entrega de SMS"
 
 #~ msgid "Number of messages which requires an action"
 #~ msgstr "Números de mensajes que requieren una acción"
